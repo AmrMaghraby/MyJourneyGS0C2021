@@ -7,6 +7,7 @@
 # Week 2 
 
  Implemented CNN (First Module) and connected it to SVM implemented by me also.
+ 
  Tried Different architectures and pre-trained CNN to see which one is more effective and getting higher accuracy.
 
 # week 3 - 8
