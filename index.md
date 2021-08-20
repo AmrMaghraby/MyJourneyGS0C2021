@@ -157,3 +157,14 @@
    
    
 # HOW TO RUN ON HPC OUR MODEL 
+
+ - In case you want to run test file follow the following instructions:
+ - Module load singularity
+ - singularity run GSOC.img video_dir
+ - For example: singularity run GSOC.img '/mnt/rds/redhen/gallina/home/aam193/GSOC2021_Detect_Video_Cuts/306-706.mp4'
+ - In case you want to run train file follow the follwoing instruction:
+ - Module load singularity
+ - singularity shell GSOC.img
+ - source activate pyscene_env
+ - python getOptimalThreshold.py 'path/to/directory/contain/mp4/files' 'path/to/directory/contains/csv/files'
+ 
