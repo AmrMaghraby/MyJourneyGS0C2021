@@ -111,29 +111,29 @@
  Film Grain got accuracy ~61%
  
  
- # Week 10
+# Week 10
  
-   I have searched on the internet for statistical methods in order to make shot detection not based on machine learning but on image processing as OpenCV and 
-   PyScene. I have found a good solution based on the histogram, generating a histogram for the current frame and forward frame and getting the difference between  
-   them and then see if it passes a certain threshold then it is a new shot if not still the same shot.
+ I have searched on the internet for statistical methods in order to make shot detection not based on machine learning but on image processing as OpenCV and 
+ PyScene. I have found a good solution based on the histogram, generating a histogram for the current frame and forward frame and getting the difference between  
+ them and then see if it passes a certain threshold then it is a new shot if not still the same shot.
   
-   Faced a challenge while making the statistical method, if in the movie suddenly we zoomed in and then zoomed out this will result in a huge difference in the
-   produced histogram which will make at certain frame the difference between it and the next greater the threshold, and we will detect it is a different shot which    is not correct. 
+ Faced a challenge while making the statistical method, if in the movie suddenly we zoomed in and then zoomed out this will result in a huge difference in the
+ produced histogram which will make at certain frame the difference between it and the next greater the threshold, and we will detect it is a different shot which     is not correct. 
   
-   Another challenge faced me when the video shows something and then suddenly someone passes or some children playing running through this scene. This will lead to
-   the previous issue that a histogram at a certain frame will produce a histogram that differs from the next one by a value that exceeds the threshold, which makes
-   us classify a new shot while this is not true (false positive).
+ Another challenge faced me when the video shows something and then suddenly someone passes or some children playing running through this scene. This will lead to
+ the previous issue that a histogram at a certain frame will produce a histogram that differs from the next one by a value that exceeds the threshold, which makes
+ us classify a new shot while this is not true (false positive).
    
    
- # Week 11
+# Week 11
  
-   I have searched how people used to use histograms, especially in tasks related to movies. I found some people recommending doing the previous solution but not on    the whole frame instead of on the four corners of the frame. I have also read that by convention in any task related to movies and video mos of the time, people    think about the corners. So, I believe we need to think about how to use histogram solutions on the corners, not the video content. 
+ I have searched how people used to use histograms, especially in tasks related to movies. I found some people recommending doing the previous solution but not on     the whole frame instead of on the four corners of the frame. I have also read that by convention in any task related to movies and video mos of the time, people     think about the corners. So, I believe we need to think about how to use histogram solutions on the corners, not the video content. 
  
-   I have found also something good related to machine learning model image classification recommended by a friend called triplet loss. I have learned the basic 
-   concepts and know how it works.
+ I have found also something good related to machine learning model image classification recommended by a friend called triplet loss. I have learned the basic 
+ concepts and know how it works.
    
    
- # Week 12
+# Week 12
  
    I have tested PyScene on color films datasets, and it worked well in case we defined a threshold to PyScene.
    
@@ -142,16 +142,16 @@
    I am searching on the internet how to know the threshold that will fit each input, but till the moment I don't found anything useful. 
    
    
- # Week 13
+# Week 13
  
    My mentor Eng Ahmed Ismail contributed to me and found a good optimizer called baysean optimizer which could be integrated with PySene to detect best threshold.
    
    
- # Week 14 
+# Week 14 
  
    Building Singularity image and upload it to HPC.
    
    A lot of problems happened as a result of library dependancy but at the end it is uploaded successfully.
    
    
- # HOW TO RUN ON HPC OUR MODEL 
+# HOW TO RUN ON HPC OUR MODEL 
