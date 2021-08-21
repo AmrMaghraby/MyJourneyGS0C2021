@@ -162,9 +162,14 @@
  - Module load singularity
  - singularity run GSOC.img video_dir
  - For example: singularity run GSOC.img '/mnt/rds/redhen/gallina/home/aam193/GSOC2021_Detect_Video_Cuts/306-706.mp4'
- - In case you want to run train file follow the follwoing instruction:
- - Module load singularity
- - singularity shell GSOC.img
- - source activate pyscene_env
- - python getOptimalThreshold.py 'path/to/directory/contain/mp4/files' 'path/to/directory/contains/csv/files'
+
+# Future Work 
+
+  1- Training Now we can train the model to get the best thrshold required by pyScene, but unfourtanley we didnot have time to test everything so as future work we      need to investigate more in it. In order to run the training pipeline follow the follwoing the steps below :
+  - In case you want to run train file follow the follwoing instruction:
+  - Module load singularity
+  - singularity shell GSOC.img
+  - source activate pyscene_env
+  - python getOptimalThreshold.py 'path/to/directory/contain/mp4/files' 'path/to/directory/contains/csv/files/to/calculate/accuracy'
  
+  2- Classify soft cuts and hard cuts in an efficient way baased on the output of pyScene.
