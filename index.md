@@ -171,6 +171,7 @@ Special Thanks to the following students for their efforts in annotating the dat
 - Ileana Sung (Dartmouth College)
 
 The following screenshot contains sample of the dataset provided by our mentors and their students which contains three different types of annotations soft cuts, hard cuts and multiframe cuts(hard cuts that will be transformed to mutltiframe cuts due to codec problem).
+
 ![screenshot of dataset](https://raw.githubusercontent.com/AmrMaghraby/GSoC_2021_Red_Hen_Lab/main/Contributors/Screenshot%20from%202021-08-21%2017-00-56.png)
 
    
