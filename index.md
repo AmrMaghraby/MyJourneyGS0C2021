@@ -154,7 +154,25 @@
  - Building Singularity image and upload it to HPC.
    
  - A lot of problems happened as a result of library dependancy but at the end it is uploaded successfully.
-   
+
+# Dataset
+
+By the help of [Mark J. Williams](https://faculty-directory.dartmouth.edu/mark-j-williams) and [John P. Bell](https://itc.dartmouth.edu/people/john-p-bell) and there students from Dartmouth college and University of Chicago.
+Special Thanks to the following students for their efforts in annotating the datasets:
+- Kevin Chen (Dartmouth College)
+- Elijah Czysz (Dartmouth College)
+- Maria Graziano (Dartmouth College)
+- Noah Hensley (Dartmouth College)
+- Emily Hester (Dartmouth College)
+- Adithi Jayaraman (Dartmouth College)
+- Yangqiao Lu (University of Chicago)
+- Momina Naveed (Dartmouth College)
+- Frandy Rodriguez (Dartmouth College)
+- Ileana Sung (Dartmouth College)
+
+The following screenshot contains sample of the dataset provided by our mentors and their students which contains three different types of annotations soft cuts, hard cuts and multiframe cuts(hard cuts that will be transformed to mutltiframe cuts due to codec problem).
+![screenshot of dataset](https://raw.githubusercontent.com/AmrMaghraby/GSoC_2021_Red_Hen_Lab/main/Contributors/Screenshot%20from%202021-08-21%2017-00-56.png)
+
    
 # HOW TO RUN ON HPC OUR MODEL 
 
